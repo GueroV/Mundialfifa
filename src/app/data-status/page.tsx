@@ -1,4 +1,4 @@
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import { CheckCircle, XCircle, AlertCircle } from "lucide-react";
 import { teams, venues, allMatches, tournament } from "@/data/tournament-data";
 
@@ -48,7 +48,7 @@ const categories = [...new Set(dataItems.map(d => d.category))];
 export default function DataStatusPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-6 space-y-6">
-      <DemoBanner />
+      <DataBanner />
 
       <h1 className="text-2xl font-bold text-white">Data Status</h1>
       <p className="text-gray-400 text-sm">

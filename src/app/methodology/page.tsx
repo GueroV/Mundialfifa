@@ -1,10 +1,10 @@
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import ModelBanner from "@/components/ui/ModelBanner";
 
 export default function MethodologyPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-6 space-y-6">
-      <DemoBanner />
+      <DataBanner />
       <ModelBanner />
 
       <h1 className="text-2xl font-bold text-white">Methodology</h1>

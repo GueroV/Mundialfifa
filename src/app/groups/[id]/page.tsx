@@ -3,7 +3,7 @@ import Link from "next/link";
 import { teams, groups, groupMatches, probabilitySnapshots, initialStandings } from "@/data/tournament-data";
 import GroupTable from "@/components/group/GroupTable";
 import MatchCard from "@/components/match/MatchCard";
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import ModelBanner from "@/components/ui/ModelBanner";
 import { ArrowLeft } from "lucide-react";
 
@@ -29,7 +29,7 @@ export default async function GroupDetailPage({ params }: Props) {
         <ArrowLeft className="h-4 w-4" /> Back to Groups
       </Link>
 
-      <DemoBanner />
+      <DataBanner />
 
       <h1 className="text-2xl font-bold text-white">Group {group}</h1>
 

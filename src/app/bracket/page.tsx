@@ -1,5 +1,5 @@
 import { allMatches } from "@/data/tournament-data";
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import { stageName, formatDate } from "@/lib/utils";
 import type { MatchStage } from "@/data/types";
 import Link from "next/link";
@@ -9,7 +9,7 @@ const knockoutStages: MatchStage[] = ["round_of_32", "round_of_16", "quarter_fin
 export default function BracketPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 space-y-6">
-      <DemoBanner />
+      <DataBanner />
       <h1 className="text-2xl font-bold text-white">Knockout Bracket</h1>
       <p className="text-gray-400 text-sm">
         The knockout stage begins July 4, 2026. Teams TBD following the group stage.

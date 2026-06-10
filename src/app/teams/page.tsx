@@ -1,13 +1,13 @@
 import { teams, groups } from "@/data/tournament-data";
 import TeamCard from "@/components/team/TeamCard";
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 
 export default function TeamsPage() {
   const sortedByElo = [...teams].sort((a, b) => b.eloRating - a.eloRating);
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 space-y-6">
-      <DemoBanner />
+      <DataBanner />
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold text-white">Teams</h1>
         <span className="text-sm text-gray-500">{teams.length} qualified nations</span>

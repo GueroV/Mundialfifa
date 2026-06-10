@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { tournament, teams, groups, groupMatches, probabilitySnapshots, venues } from "@/data/tournament-data";
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import MatchCard from "@/components/match/MatchCard";
 import { formatDate, stageName } from "@/lib/utils";
 import { Calendar, Users, MapPin, BarChart2, Trophy, ArrowRight } from "lucide-react";
@@ -17,7 +17,7 @@ export default function HomePage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 space-y-6">
-      <DemoBanner />
+      <DataBanner />
 
       {/* Hero */}
       <div className="bg-surface border border-white/10 rounded-xl p-6 md:p-8">

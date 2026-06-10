@@ -1,6 +1,6 @@
 import { allMatches, probabilitySnapshots, groups } from "@/data/tournament-data";
 import MatchCard from "@/components/match/MatchCard";
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import Link from "next/link";
 import type { MatchStage } from "@/data/types";
 import { stageName } from "@/lib/utils";
@@ -10,7 +10,7 @@ const stages: MatchStage[] = ["group", "round_of_32", "round_of_16", "quarter_fi
 export default function MatchesPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-6 space-y-6">
-      <DemoBanner />
+      <DataBanner />
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold text-white">Fixtures</h1>
         <span className="text-sm text-gray-500">{allMatches.length} total matches</span>

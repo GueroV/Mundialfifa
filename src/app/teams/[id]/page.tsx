@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { teams, groupMatches, probabilitySnapshots, getTeamById } from "@/data/tournament-data";
 import { cn, eloToLabel, formColor, pct } from "@/lib/utils";
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import ModelBanner from "@/components/ui/ModelBanner";
 import MatchCard from "@/components/match/MatchCard";
 import { ArrowLeft, Star, Shield, Zap } from "lucide-react";
@@ -28,7 +28,7 @@ export default async function TeamDetailPage({ params }: Props) {
         <ArrowLeft className="h-4 w-4" /> Back to Teams
       </Link>
 
-      <DemoBanner />
+      <DataBanner />
 
       {/* Team header */}
       <div className="bg-surface border border-white/10 rounded-xl p-6">

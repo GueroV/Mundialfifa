@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { allMatches, probabilitySnapshots, getTeamById, venues } from "@/data/tournament-data";
 import { cn, formatDateTime, stageName, pct } from "@/lib/utils";
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import ModelBanner from "@/components/ui/ModelBanner";
 import { ArrowLeft, MapPin, Clock } from "lucide-react";
 
@@ -32,7 +32,7 @@ export default async function MatchDetailPage({ params }: Props) {
         <ArrowLeft className="h-4 w-4" /> Back to Fixtures
       </Link>
 
-      <DemoBanner />
+      <DataBanner />
 
       {/* Match header */}
       <div className="bg-surface border border-white/10 rounded-xl p-6">

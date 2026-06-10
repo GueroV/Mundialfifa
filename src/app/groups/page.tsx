@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { teams, groups, initialStandings } from "@/data/tournament-data";
 import GroupTable from "@/components/group/GroupTable";
-import DemoBanner from "@/components/ui/DemoBanner";
+import DataBanner from "@/components/ui/DemoBanner";
 import { ArrowRight } from "lucide-react";
 
 export default function GroupsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 space-y-6">
-      <DemoBanner />
+      <DataBanner />
       <h1 className="text-2xl font-bold text-white">Groups</h1>
       <p className="text-gray-400 text-sm">12 groups of 4 teams. Top 2 from each group + 8 best third-place teams advance to the Round of 32.</p>
 
