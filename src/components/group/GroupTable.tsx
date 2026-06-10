@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import type { GroupStanding } from "@/data/types";
 import { getTeamById } from "@/data/tournament-data";
+import FlagIcon from "@/components/ui/FlagIcon";
 
 interface Props {
   standings: GroupStanding[];
@@ -48,7 +49,7 @@ export default function GroupTable({ standings, group }: Props) {
                 <td className="py-2 px-2 text-gray-500">{idx + 1}</td>
                 <td className="py-2 px-2">
                   <div className="flex items-center gap-2">
-                    <span className="text-base">{team?.flagEmoji}</span>
+                    {team && <FlagIcon code={team.code} size="sm" />}
                     <span className={cn("font-medium", isQualified ? "text-white" : "text-gray-300")}>
                       {team?.shortName ?? s.teamId}
                     </span>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "flag-icons/css/flag-icons.min.css";
 import Navigation from "@/components/layout/Navigation";
 
 const geistSans = Geist({
@@ -32,7 +33,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="hidden md:block border-t border-white/10 py-4 text-center text-xs text-gray-600">
-          WC2026 Analytics Dashboard · Demo Data · Not affiliated with FIFA · Statistical estimates only
+          WC2026 Analytics · Not affiliated with FIFA · Statistical estimates only
         </footer>
       </body>
     </html>
