@@ -175,10 +175,10 @@ export const matches: Match[] = [
   { id: "gs-011", tournamentId: "wc2026", matchNumber: 11, stage: "group", group: "F", kickoffUtc: "2026-06-15T02:00:00Z", venueId: "v16", homeTeamId: "swe", awayTeamId: "tun", status: "scheduled", matchday: 1 },
 
   // Mon Jun 15 — Groups G, H
-  { id: "gs-012", tournamentId: "wc2026", matchNumber: 12, stage: "group", group: "H", kickoffUtc: "2026-06-15T17:00:00Z", venueId: "v09", homeTeamId: "esp", awayTeamId: "cpv", status: "scheduled", matchday: 1 },
-  { id: "gs-013", tournamentId: "wc2026", matchNumber: 13, stage: "group", group: "G", kickoffUtc: "2026-06-15T22:00:00Z", venueId: "v11", homeTeamId: "bel", awayTeamId: "egy", status: "scheduled", matchday: 1 },
+  { id: "gs-012", tournamentId: "wc2026", matchNumber: 12, stage: "group", group: "H", kickoffUtc: "2026-06-15T16:00:00Z", venueId: "v09", homeTeamId: "esp", awayTeamId: "cpv", status: "scheduled", matchday: 1 },
+  { id: "gs-013", tournamentId: "wc2026", matchNumber: 13, stage: "group", group: "G", kickoffUtc: "2026-06-15T19:00:00Z", venueId: "v11", homeTeamId: "bel", awayTeamId: "egy", status: "scheduled", matchday: 1 },
   { id: "gs-014", tournamentId: "wc2026", matchNumber: 14, stage: "group", group: "H", kickoffUtc: "2026-06-15T22:00:00Z", venueId: "v08", homeTeamId: "ksa", awayTeamId: "uru", status: "scheduled", matchday: 1 },
-  { id: "gs-015", tournamentId: "wc2026", matchNumber: 15, stage: "group", group: "G", kickoffUtc: "2026-06-16T04:00:00Z", venueId: "v03", homeTeamId: "irn", awayTeamId: "nzl", status: "scheduled", matchday: 1 },
+  { id: "gs-015", tournamentId: "wc2026", matchNumber: 15, stage: "group", group: "G", kickoffUtc: "2026-06-16T01:00:00Z", venueId: "v03", homeTeamId: "irn", awayTeamId: "nzl", status: "scheduled", matchday: 1 },
 
   // Tue Jun 16 — Groups I, J
   { id: "gs-016", tournamentId: "wc2026", matchNumber: 16, stage: "group", group: "I", kickoffUtc: "2026-06-16T19:00:00Z", venueId: "v01", homeTeamId: "fra", awayTeamId: "sen", status: "scheduled", matchday: 1 },
@@ -209,7 +209,7 @@ export const matches: Match[] = [
 
   // Sat Jun 20 — Groups D, E, F
   { id: "gs-031", tournamentId: "wc2026", matchNumber: 31, stage: "group", group: "F", kickoffUtc: "2026-06-20T17:00:00Z", venueId: "v04", homeTeamId: "ned", awayTeamId: "swe", status: "scheduled", matchday: 2 },
-  { id: "gs-032", tournamentId: "wc2026", matchNumber: 32, stage: "group", group: "D", kickoffUtc: "2026-06-20T19:00:00Z", venueId: "v09", homeTeamId: "tur", awayTeamId: "par", status: "scheduled", matchday: 2 },
+  { id: "gs-032", tournamentId: "wc2026", matchNumber: 32, stage: "group", group: "D", kickoffUtc: "2026-06-20T04:00:00Z", venueId: "v05", homeTeamId: "tur", awayTeamId: "par", status: "scheduled", matchday: 2 },
   { id: "gs-033", tournamentId: "wc2026", matchNumber: 33, stage: "group", group: "E", kickoffUtc: "2026-06-20T20:00:00Z", venueId: "v12", homeTeamId: "ger", awayTeamId: "civ", status: "scheduled", matchday: 2 },
   { id: "gs-034", tournamentId: "wc2026", matchNumber: 34, stage: "group", group: "E", kickoffUtc: "2026-06-21T00:00:00Z", venueId: "v07", homeTeamId: "ecu", awayTeamId: "cur", status: "scheduled", matchday: 2 },
   { id: "gs-035", tournamentId: "wc2026", matchNumber: 35, stage: "group", group: "F", kickoffUtc: "2026-06-21T04:00:00Z", venueId: "v16", homeTeamId: "tun", awayTeamId: "jpn", status: "scheduled", matchday: 2 },
@@ -223,7 +223,7 @@ export const matches: Match[] = [
   // Mon Jun 22 — Groups I, J
   { id: "gs-040", tournamentId: "wc2026", matchNumber: 40, stage: "group", group: "J", kickoffUtc: "2026-06-22T17:00:00Z", venueId: "v02", homeTeamId: "arg", awayTeamId: "aut", status: "scheduled", matchday: 2 },
   { id: "gs-041", tournamentId: "wc2026", matchNumber: 41, stage: "group", group: "I", kickoffUtc: "2026-06-22T21:00:00Z", venueId: "v06", homeTeamId: "fra", awayTeamId: "irq", status: "scheduled", matchday: 2 },
-  { id: "gs-042", tournamentId: "wc2026", matchNumber: 42, stage: "group", group: "I", kickoffUtc: "2026-06-23T00:00:00Z", venueId: "v01", homeTeamId: "nor", awayTeamId: "sen", status: "scheduled", matchday: 2 },
+  { id: "gs-042", tournamentId: "wc2026", matchNumber: 42, stage: "group", group: "I", kickoffUtc: "2026-06-23T00:00:00Z", venueId: "v12", homeTeamId: "nor", awayTeamId: "sen", status: "scheduled", matchday: 2 },
   { id: "gs-043", tournamentId: "wc2026", matchNumber: 43, stage: "group", group: "J", kickoffUtc: "2026-06-23T03:00:00Z", venueId: "v05", homeTeamId: "jor", awayTeamId: "dza", status: "scheduled", matchday: 2 },
 
   // Tue Jun 23 — Groups K, L
@@ -256,22 +256,20 @@ export const matches: Match[] = [
   { id: "gs-060", tournamentId: "wc2026", matchNumber: 60, stage: "group", group: "I", kickoffUtc: "2026-06-26T19:00:00Z", venueId: "v10", homeTeamId: "nor", awayTeamId: "fra", status: "scheduled", matchday: 3 },
   { id: "gs-061", tournamentId: "wc2026", matchNumber: 61, stage: "group", group: "I", kickoffUtc: "2026-06-26T19:00:00Z", venueId: "v12", homeTeamId: "sen", awayTeamId: "irq", status: "scheduled", matchday: 3 },
   { id: "gs-062", tournamentId: "wc2026", matchNumber: 62, stage: "group", group: "H", kickoffUtc: "2026-06-27T00:00:00Z", venueId: "v15", homeTeamId: "uru", awayTeamId: "esp", status: "scheduled", matchday: 3 },
-  { id: "gs-063", tournamentId: "wc2026", matchNumber: 63, stage: "group", group: "H", kickoffUtc: "2026-06-27T00:00:00Z", venueId: "v08", homeTeamId: "cpv", awayTeamId: "ksa", status: "scheduled", matchday: 3 },
+  { id: "gs-063", tournamentId: "wc2026", matchNumber: 63, stage: "group", group: "H", kickoffUtc: "2026-06-27T00:00:00Z", venueId: "v04", homeTeamId: "cpv", awayTeamId: "ksa", status: "scheduled", matchday: 3 },
   { id: "gs-064", tournamentId: "wc2026", matchNumber: 64, stage: "group", group: "G", kickoffUtc: "2026-06-27T03:00:00Z", venueId: "v11", homeTeamId: "egy", awayTeamId: "irn", status: "scheduled", matchday: 3 },
   { id: "gs-065", tournamentId: "wc2026", matchNumber: 65, stage: "group", group: "G", kickoffUtc: "2026-06-27T03:00:00Z", venueId: "v13", homeTeamId: "nzl", awayTeamId: "bel", status: "scheduled", matchday: 3 },
 
   // Sat Jun 27 — Groups J, K, L
-  { id: "gs-066", tournamentId: "wc2026", matchNumber: 66, stage: "group", group: "L", kickoffUtc: "2026-06-27T22:00:00Z", venueId: "v01", homeTeamId: "eng", awayTeamId: "pan", status: "scheduled", matchday: 3 },
-  { id: "gs-067", tournamentId: "wc2026", matchNumber: 67, stage: "group", group: "L", kickoffUtc: "2026-06-27T22:00:00Z", venueId: "v12", homeTeamId: "cro", awayTeamId: "gha", status: "scheduled", matchday: 3 },
-  { id: "gs-068", tournamentId: "wc2026", matchNumber: 68, stage: "group", group: "K", kickoffUtc: "2026-06-28T01:00:00Z", venueId: "v08", homeTeamId: "col", awayTeamId: "por", status: "scheduled", matchday: 3 },
-  { id: "gs-069", tournamentId: "wc2026", matchNumber: 69, stage: "group", group: "K", kickoffUtc: "2026-06-28T01:00:00Z", venueId: "v09", homeTeamId: "cod", awayTeamId: "uzb", status: "scheduled", matchday: 3 },
+  { id: "gs-066", tournamentId: "wc2026", matchNumber: 66, stage: "group", group: "L", kickoffUtc: "2026-06-27T21:00:00Z", venueId: "v01", homeTeamId: "eng", awayTeamId: "pan", status: "scheduled", matchday: 3 },
+  { id: "gs-067", tournamentId: "wc2026", matchNumber: 67, stage: "group", group: "L", kickoffUtc: "2026-06-27T21:00:00Z", venueId: "v06", homeTeamId: "cro", awayTeamId: "gha", status: "scheduled", matchday: 3 },
+  { id: "gs-068", tournamentId: "wc2026", matchNumber: 68, stage: "group", group: "K", kickoffUtc: "2026-06-27T23:30:00Z", venueId: "v08", homeTeamId: "col", awayTeamId: "por", status: "scheduled", matchday: 3 },
+  { id: "gs-069", tournamentId: "wc2026", matchNumber: 69, stage: "group", group: "K", kickoffUtc: "2026-06-27T23:30:00Z", venueId: "v09", homeTeamId: "cod", awayTeamId: "uzb", status: "scheduled", matchday: 3 },
   { id: "gs-070", tournamentId: "wc2026", matchNumber: 70, stage: "group", group: "J", kickoffUtc: "2026-06-28T02:00:00Z", venueId: "v02", homeTeamId: "jor", awayTeamId: "arg", status: "scheduled", matchday: 3 },
   { id: "gs-071", tournamentId: "wc2026", matchNumber: 71, stage: "group", group: "J", kickoffUtc: "2026-06-28T02:00:00Z", venueId: "v07", homeTeamId: "dza", awayTeamId: "aut", status: "scheduled", matchday: 3 },
 
-  // Sun Jun 28 — remaining 1 slot to reach 72 group matches
-  // (each group = 6 matches × 12 groups = 72 total)
-  // Groups A and D share the last slot on Jun 28
-  { id: "gs-072", tournamentId: "wc2026", matchNumber: 72, stage: "group", group: "A", kickoffUtc: "2026-06-28T23:00:00Z", venueId: "v14", homeTeamId: "mex", awayTeamId: "cze", status: "scheduled", matchday: 3 },
+  // Jun 13 — Group D MD1 (originally omitted — Australia vs Türkiye)
+  { id: "gs-072", tournamentId: "wc2026", matchNumber: 72, stage: "group", group: "D", kickoffUtc: "2026-06-14T04:00:00Z", venueId: "v13", homeTeamId: "aus", awayTeamId: "tur", status: "scheduled", matchday: 1 },
 
   // ════════════════════════════════════════════════
   // ROUND OF 32 (matches 73–88)
